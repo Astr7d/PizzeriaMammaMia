@@ -1,0 +1,12 @@
+.header {
+  background-image: url(./assets/img/Header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
