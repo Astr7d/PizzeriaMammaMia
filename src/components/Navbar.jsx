@@ -19,13 +19,23 @@ const Navbar = () => {
           <a class="nav-link active" aria-current="page" href="#">🍕 Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#">🔓 Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">🔐 Logout</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">🔐 Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">🔐 Registerg</a>
+          <a class="nav-link" href="#">🔐 Register</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">🛒 Total: $25.000</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">🛒 Total: $25.000
+          <a class="nav-link disabled" aria-disabled="false">🛒 Total: $25.000
 </a>
         </li>
       </ul>
