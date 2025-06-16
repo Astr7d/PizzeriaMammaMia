@@ -1,18 +1,16 @@
 import './App.css'
 import Footer from './components/Footer'
 import Home from './components/Home'
-import Login from './components/Login'
+//import Login from './components/Login'
 import Navbar from './components/Navbar'
-import Register from './components/Register'
+//import Register from './components/Register'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      {/*<Register /> */} 
-      <Login />
-      {/* <Home /> */} 
+      <Home />
       <Footer />
       
     </>
