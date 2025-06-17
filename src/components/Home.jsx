@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import CardPizza from './CardPizza'
 import "../Home.css"
-import { pizzas } from './pizzas'
+import { pizzas } from './pizzas';
 
 const Home = () => {
   return (

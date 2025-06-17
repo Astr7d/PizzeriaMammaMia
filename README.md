@@ -1,4 +1,22 @@
-# HITO 2 - Pizzería Mamma Mia
+# Hito 3
+
+## Requerimientos
+
+1. <Home/>: 
+● Recorre el array de pizzas y renderiza un componente <CardPizza/>
+
+2. <CardPizza/>: 
+● Muestra la información de cada pizza utilizando props
+● Itera por la lista de ingredientes de cada pizza y renderiza un <li> por cada ingrediente
+
+3. <Cart/>:
+● Recorre el array de pizzaCart y muestra la información de cada pizza en el carrito
+● Agrega botones para aumentar y disminuir la cantidad de pizzas en el carrito
+● Calcula el total de la compra y muestralo en el carrito
+
+
+
+<!--# HITO 2 - Pizzería Mamma Mia
 
 ## Objetivo: Manejar el estado y los eventos en React
 
@@ -41,3 +59,4 @@ Aplica las siguientes validaciones mínimas:
 // ## Expanding the ESLint configuration
 
 // If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-->

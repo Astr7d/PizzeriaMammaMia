@@ -10,7 +10,12 @@ const CardPizza = (props) => {
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
             <p><strong>Ingredientes</strong></p>
-            🍕 {props.ingredientes}
+            <ul>
+              {props.ingredientes.map((ing, index) => (
+                <li key={index}>🍕 {ing}</li>
+              ))}
+            </ul>
+
         </li>
         
       </ul>
